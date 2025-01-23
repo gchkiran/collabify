@@ -104,7 +104,7 @@ const LANGUAGES = [
   const runCode = async () => {
     setIsCompiling(true);
     try {
-      const response = await axios.post("http://localhost:5028/compile", {
+      const response = await axios.post("https://collabify-3ofs.onrender.com/compile", {
         code: codeRef.current,
         language: selectedLanguage,
       });
