@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express')
 const app = express()
 const http = require('http')
@@ -8,13 +9,12 @@ const server = http.createServer(app)
 
 const userSocketMap = {};
 
-const io = new Server(server, {
-    cors: {
-      origin: "http://localhost:3000",
-      methods: ["GET", "POST"],
-    },
-  });
-  
+const corsOptions = {
+  origin: process.env.CORS_ORIGIN || "http://localhost:3000",  // Default to local for development
+  methods: ["GET", "POST"],
+};
+
+const path = require('path');
 
 const languageConfig = {
     python3: { versionIndex: "3" },
@@ -35,10 +35,17 @@ const languageConfig = {
     r: { versionIndex: "3" },
   };
 
-  
   app.use(cors());
   
   app.use(express.json());
+
+  if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, 'client', 'build')));
+  
+    app.get('*', (req, res) => {
+      res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    });
+  }
 
 const getAllConnectedClients = (roomId) => {
     return Array.from(io.sockets.adapter.rooms.get(roomId) || []).map(
