@@ -5,10 +5,16 @@ const {Server} = require('socket.io')
 const cors = require("cors");
 const axios = require("axios");
 const server = http.createServer(app)
-const io = new Server(server);
 
 const userSocketMap = {};
 
+const io = new Server(server, {
+    cors: {
+      origin: "http://localhost:3000",
+      methods: ["GET", "POST"],
+    },
+  });
+  
 
 const languageConfig = {
     python3: { versionIndex: "3" },
