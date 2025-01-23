@@ -1,0 +1,22 @@
+{
+  "name": "multi-user-real-time-collaboration-tool",
+  "version": "1.0.0",
+  "description": "collabify",
+  "homepage": "https://github.com/gchkiran/collabify#readme",
+  "bugs": {
+    "url": "https://github.com/gchkiran/collabify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gchkiran/collabify.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "build": "npm install && cd client && npm install && npm run build"
+  }
+}
