@@ -1,5 +1,5 @@
 
-# Multi-User Real-Time Code Collaboration Tool
+# Collabify : Multi-User Real-Time Code Collaboration Tool
 
 ## Overview
 
@@ -145,7 +145,11 @@ Below is a simplified architecture diagram:
 
 ## Demo Video
 
-[Watch the demo video here](demo-video.mov)
+Watch the demo video here
+<video width="640" height="360" controls>
+    <source src="https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.mov" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ---
 
