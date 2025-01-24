@@ -149,7 +149,7 @@ Below is a simplified architecture diagram:
 
 ---
 
-## Demo Video
+## Deployed Application
 
 You can access the live version of the application here: https://collabify-3ofs.onrender.com/
 
