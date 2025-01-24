@@ -139,12 +139,13 @@ Below is a simplified architecture diagram:
 
 ### Code Execution
 ![Python code Screenshot](code-page.png)
+
 ![Python code output Screenshot](code-output.png)
 ---
 
 ## Demo Video
 
-[Watch the demo video here](demo-video-link)
+[Watch the demo video here](demo-video.mov)
 
 ---
 
