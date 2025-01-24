@@ -147,7 +147,7 @@ Below is a simplified architecture diagram:
 
 Watch the demo video here
 <video width="640" height="360" controls>
-    <source src="https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.mov" type="video/mp4">
+    <source src="https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.mov" type="video/quicktime">
     Your browser does not support the video tag.
 </video>
 
