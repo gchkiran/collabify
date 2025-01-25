@@ -15,7 +15,7 @@ This project is a full-stack application designed to provide real-time collabora
 
 2. **Code Editor Page**:
    - Select programming languages.
-   - Write code and compile using the "Compile Code" button.
+   - Write code and compile using the "Open Compile << Run Code" button.
    - View compilation output immediately.
    - Real-time collaboration with multiple users viewing and editing simultaneously.
 
@@ -146,7 +146,6 @@ Below is a simplified architecture diagram:
 ## Demo Video
 
 [Watch the demo video here](https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.mp4)
-
 
 ---
 
