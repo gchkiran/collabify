@@ -7,6 +7,13 @@ This project is a full-stack application designed to provide real-time collabora
 
 ---
 
+## Deployed Application
+
+You can access the live version of the application here: https://collabify-3ofs.onrender.com/
+
+---
+
+
 ## Key Features
 
 1. **Room Page**:
@@ -146,12 +153,6 @@ Below is a simplified architecture diagram:
 ## Demo Video
 
 ![Watch the demo video here](https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.gif)
-
----
-
-## Deployed Application
-
-You can access the live version of the application here: https://collabify-3ofs.onrender.com/
 
 ---
 
