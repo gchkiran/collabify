@@ -145,7 +145,7 @@ Below is a simplified architecture diagram:
 
 ## Demo Video
 
-[Watch the demo video here](https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.gif)
+![Watch the demo video here](https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.gif)
 
 ---
 
