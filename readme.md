@@ -107,7 +107,7 @@ Below is a simplified architecture diagram:
 +---------------+                      +------------------+
        ^                                        |
        | HTTP                                   |
-       | (REST API for Compilation)            v
+       | (REST API for Compilation)             v
 +---------------+                      +------------------+
 |               |                      |                  |
 |    Client 2   +<-------------------->+  JDoodle API     |
@@ -145,7 +145,7 @@ Below is a simplified architecture diagram:
 
 ## Demo Video
 
-[Watch the demo video here](https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.mp4)
+[Watch the demo video here](https://raw.githubusercontent.com/gchkiran/collabify/main/demo-video.gif)
 
 ---
 
